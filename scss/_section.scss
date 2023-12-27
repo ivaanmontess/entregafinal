@@ -1,0 +1,38 @@
+section {
+    border: 2px solid whitesmoke;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(9, 7, 155);
+    border-radius: 10px;
+    border-color: rgb(9, 7, 155);
+    font-family: 'Merienda', cursive;
+    transition: transform 1s;
+}
+
+.miSection:hover {
+    animation: vibrar 1s ease-in-out infinite;
+
+    /* Aplica la animación al pasar el mouse */
+}
+
+@keyframes vibrar {
+    25% {
+        transform: translateX(-5px);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+
+    75% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+        transform: translateX(5px);
+    }
+}
+
+h3 {
+    text-align: center;
+}

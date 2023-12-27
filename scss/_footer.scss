@@ -1,0 +1,43 @@
+.contacto {
+    p {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    margin: 10px;
+    padding-left: 600px;
+    text-align: center;
+    width: 250px;
+}
+
+.map {
+    h2 {
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    margin: 10px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    background-color: $color-mapa;
+    border-radius: 15px;
+    border-bottom: 15px;
+}
+
+iframe {
+    padding-left: 300px;
+}
+
+#footer a {
+    font-size: 10px;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(236, 236, 241);
+}
+
+footer {
+    text-align: center;
+}

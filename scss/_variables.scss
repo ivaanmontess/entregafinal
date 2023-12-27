@@ -1,0 +1,27 @@
+/* Responsive*/
+@media (max-width: 1023px) {
+    .logo nav article {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    ul {
+        font-size: 2.5rem;
+        text-align: center;
+        margin: 5vh;
+    }
+
+    main {
+        height: auto;
+        margin: 5vh;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    img {
+        grid-template-columns: 1fr;
+    }
+}
+$color-fondo: rgba(62, 53, 53, 0.372);
+$color-mapa: black;

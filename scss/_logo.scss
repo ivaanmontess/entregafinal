@@ -1,0 +1,23 @@
+@mixin ancla{
+    text-decoration: none;
+    color: beige
+}
+.logo {
+    text-align: center;
+
+    img {
+        width: 100px;
+        height: auto;
+        border-radius: 50px;
+    }
+}
+
+a {
+    background-color: $color-fondo;
+    @include ancla;
+    border-bottom: 5px bold;
+
+    &:hover {
+        color: rgba(9, 7, 155, 0.372);
+    }
+}
